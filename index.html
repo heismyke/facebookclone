@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>facebook clone</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./src/style.css">
   <script src="https://kit.fontawesome.com/bcf7712443.js" crossorigin="anonymous"></script>
 </head>
 <style>
@@ -246,8 +247,10 @@
      </div>
     </div>
     <!-- side bar container ends -->
-    <div class="w-[50%] lg:w-[50%] md:w-[90%] h-[3100px] bg-red-300 mx-2">
-     
+    <div class="w-[50%] lg:w-[50%] md:w-[90%] h-[3100px]  mx-2">
+     <div class="w-[97%] md:w-[97%] lg:w-[80%] h-[2800px] bg-white lg:ml-[50px] md:ml-[10px]  mt-10">
+
+     </div>
    </div>
    <div class="w-[25%] h-[600px]  sticky top-[50px] over hidden lg:block">
     <div class="w-full  h-[50px] mt-5 flex items-center">
@@ -275,9 +278,9 @@
       <div class="hover:cursor hover:bg-gray-200 w-full h-[40px] flex items-center hover:rounded-lg hover:cursor-pointer">
         <div class="flex  items-center space-x-3 ml-10">
           <div class="w-[25px] h-[25px]  flex justify-center items-center">
-            <i data-visualcompletion="css-img" class="x1b0d499 x1d69dk1" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yl/r/RNsMlfcRPuo.png?_nc_eui2=AeHNiP-nblJmTUqkIWQIELihiau5zMcrUlKJq7nMxytSUsU9vHXnKx8WXJ8S_B_n4fdfp0oCrRS6cXolSAjLUAua&quot;); background-position: 0px -37px; background-size: 37px 264px; width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;"></i>
+            <i  class="x1b0d499 x1d69dk1" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yl/r/RNsMlfcRPuo.png?_nc_eui2=AeHNiP-nblJmTUqkIWQIELihiau5zMcrUlKJq7nMxytSUsU9vHXnKx8WXJ8S_B_n4fdfp0oCrRS6cXolSAjLUAua&quot;); background-position: 0px -37px; background-size: 37px 264px; width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;  "></i>
           </div>
-          <h5 class="text-[13px] font-semibold hidden lg:block">Switch into Page</h5>
+          <h5 class="text-sm  hidden lg:block">Switch into Page</h5>
         </div>
       </div>
 
@@ -286,14 +289,187 @@
         <div class="w-[25px] h-[25px]   flex justify-center items-center">
           <i data-visualcompletion="css-img" class="x1b0d499 x1d69dk1 " style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yl/r/RNsMlfcRPuo.png?_nc_eui2=AeHNiP-nblJmTUqkIWQIELihiau5zMcrUlKJq7nMxytSUsU9vHXnKx8WXJ8S_B_n4fdfp0oCrRS6cXolSAjLUAua&quot;); background-position: 0px -205px; background-size: 37px 264px; width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;"></i>
         </div>
-        <h5 class="text-[13px] font-semibold hidden lg:block">Create promotion</h5>
+        <h5 class="text-sm hidden lg:block">Create promotion</h5>
+      </div>
+    </div>
+    </div>
+    <div class="w-full  h-[30px] mt-5 flex pr-2 justify-between items-center">
+      <h5 class="font-semibold text-lg">Friend requests</h5>
+
+      <div class="w-[15%] h-[30px] py-3  flex justify-center items-center hover:bg-gray-200 hover:rounded-lg">
+        <a href=""><p class="text-blue-400">See all</p></a>
+      </div>
+      
+    </div>
+    <div class="w-[95%] h-[120px] flex hover:cursor-pointer hover:bg-gray-200 hover:rounded-lg pr-3 pt-2">
+      <div class="w-[80px] h-[80px] rounded-full  m-2">
+        <img src="./images/round1.jpg" alt="" class="object-cover rounded-full w-[80px] h-[80px]">
+      </div>
+      <div class="w-[75%]  h-full">
+        <div class="w-full h-[50px] ">
+          <div class="flex justify-between">
+            <div><h5 class="font-semibold">Hudson Beck</h5></div>
+            <div class="flex items-center pr-2 gap-2 ">1d
+              <div class="w-[10px] h-[10px] bg-blue-500 rounded-full flex justify-center items-center"></div>
+            </div>
+          </div>
+          <div class="w-[50%] h-[30px]  flex items-center">
+            <div class="relative flex ">
+              <div class="w-[20px] h-[20px] rounded-full absolute left-4">
+                <img src="./images/round-3.png" alt="" class="object-cover rounded-full w-[20px] h-[20px]">
+              </div>
+              <div class="w-[20px] h-[20px]  rounded-full">
+                <img src="./images/round2.JPG" alt="" class="object-cover rounded-full w-[20px] h-[20px]">
+              </div>
+            </div>
+            <div class="">
+              <p class="text-gray-400 text-sm">11 mutual friends</p>
+            </div>
+          </div>
+        </div>
+        <div class="w-full h-[60px] flex justify-between pt-3 ">
+          <button class="bg-[#1a73e3] w-[45%] h-[40px] text-white rounded-lg">Confirm</button>
+          <button class="bg-gray-300 w-[45%] h-[40px] rounded-lg mr-2">Delete</button>
+        </div>
+      </div>
+      <div></div>
+    </div>
+
+    <div class="w-full  h-[30px] mt-5 flex pr-2 justify-between items-center">
+      <h5 class="font-semibold text-lg">Contacts</h5>
+
+      <div class="w-[30%] h-[30px] py-3   flex justify-between items-center ">
+        <div class="w-[30px] h-[30px] hover:bg-gray-200 hover:rounded-full rounded-full flex items-center justify-center">
+          <div aria-label="New room" class="x1i10hfl x1qjc9v5 xjqpnuy xa49m3k xqeqjp1 x2hbi6w x9f619 x1ypdohk xdl72j9 x2lah0s xe8uvvx x2lwn1j xeuugli x16tdsg8 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x1o1ewxj x3x9cwd x1e5q0jg x13rtm0m x1q0g3np x87ps6o x1lku1pv x1a2a7pz xjyslct xjbqb8w x13fuv20 xu3j5b3 x1q0q8m5 x26u7qi x972fbf xcfux6l x1qhh985 xm0m39n x3nfvp2 xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x1n2onr6 x3ajldb x194ut8o x1vzenxt xd7ygy7 xt298gk x1xhcax0 x1s928wv x10pfhc2 x1j6awrg x1v53gu8 x1tfg27r xitxdhh" role="button" tabindex="0"><svg fill="currentColor" viewBox="0 0 16 16" width="1em" height="1em" class="x1lliihq x1k90msu x2h7rmj x1qfuztq xcza8v6 xlup9mm x1kky2od"><g fill-rule="evenodd" transform="translate(-448 -544)"><path d="M457.25 552.5H455v2.25a.75.75 0 0 1-1.5 0v-2.25h-2.25a.75.75 0 0 1 0-1.5h2.25v-2.25a.75.75 0 0 1 1.5 0V551h2.25a.75.75 0 0 1 0 1.5m6.38-4.435a.62.62 0 0 0-.64.047l-2.49 1.634v-1.394a1.854 1.854 0 0 0-1.852-1.852l-8.796.002a1.854 1.854 0 0 0-1.851 1.852v6.793c0 1.021.83 1.852 1.852 1.852l1.147-.002h7.648a1.854 1.854 0 0 0 1.852-1.851v-1.392l2.457 1.61a.641.641 0 0 0 .673.071.663.663 0 0 0 .37-.601v-6.167c0-.26-.142-.49-.37-.602"></path></g></svg><div class="x1ey2m1c xds687c xg01cxk x47corl x10l6tqk x17qophe x13vifvy x1ebt8du x19991ni x1dhq9h x1wpzbip x14yjl9h xudhj91 x18nykt9 xww2gxu" data-visualcompletion="ignore" style="inset: -8px;"></div></div>
+        </div>
+        <div class="w-[30px] h-[30px] hover:bg-gray-200 hover:rounded-full rounded-full flex items-center justify-center">
+          <div aria-label="Search by name or group" class="x1i10hfl x1qjc9v5 xjqpnuy xa49m3k xqeqjp1 x2hbi6w x9f619 x1ypdohk xdl72j9 x2lah0s xe8uvvx x2lwn1j xeuugli x16tdsg8 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x1o1ewxj x3x9cwd x1e5q0jg x13rtm0m x1q0g3np x87ps6o x1lku1pv x1a2a7pz xjyslct xjbqb8w x13fuv20 xu3j5b3 x1q0q8m5 x26u7qi x972fbf xcfux6l x1qhh985 xm0m39n x3nfvp2 xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x1n2onr6 x3ajldb x194ut8o x1vzenxt xd7ygy7 xt298gk x1xhcax0 x1s928wv x10pfhc2 x1j6awrg x1v53gu8 x1tfg27r xitxdhh" role="button" tabindex="0"><svg fill="currentColor" viewBox="0 0 16 16" width="1em" height="1em" class="x1lliihq x1k90msu x2h7rmj x1qfuztq xcza8v6 xlup9mm x1kky2od"><g fill-rule="evenodd" transform="translate(-448 -544)"><g fill-rule="nonzero"><path d="M10.743 2.257a6 6 0 1 1-8.485 8.486 6 6 0 0 1 8.485-8.486zm-1.06 1.06a4.5 4.5 0 1 0-6.365 6.364 4.5 4.5 0 0 0 6.364-6.363z" transform="translate(448 544)"></path><path d="M10.39 8.75a2.94 2.94 0 0 0-.199.432c-.155.417-.23.849-.172 1.284.055.415.232.794.54 1.103a.75.75 0 0 0 1.112-1.004l-.051-.057a.39.39 0 0 1-.114-.24c-.021-.155.014-.356.09-.563.031-.081.06-.145.08-.182l.012-.022a.75.75 0 1 0-1.299-.752z" transform="translate(448 544)"></path><path d="M9.557 11.659c.038-.018.09-.04.15-.064.207-.077.408-.112.562-.092.08.01.143.034.198.077l.041.036a.75.75 0 0 0 1.06-1.06 1.881 1.881 0 0 0-1.103-.54c-.435-.058-.867.018-1.284.175-.189.07-.336.143-.433.2a.75.75 0 0 0 .624 1.356l.066-.027.12-.061z" transform="translate(448 544)"></path><path d="m13.463 15.142-.04-.044-3.574-4.192c-.599-.703.355-1.656 1.058-1.057l4.191 3.574.044.04c.058.059.122.137.182.24.249.425.249.96-.154 1.41l-.057.057c-.45.403-.986.403-1.411.154a1.182 1.182 0 0 1-.24-.182zm.617-.616.444-.444a.31.31 0 0 0-.063-.052c-.093-.055-.263-.055-.35.024l.208.232.207-.206.006.007-.22.257-.026-.024.033-.034.025.027-.257.22-.007-.007zm-.027-.415c-.078.088-.078.257-.023.35a.31.31 0 0 0 .051.063l.205-.204-.233-.209z" transform="translate(448 544)"></path></g></g></svg><div class="x1ey2m1c xds687c xg01cxk x47corl x10l6tqk x17qophe x13vifvy x1ebt8du x19991ni x1dhq9h x1wpzbip x14yjl9h xudhj91 x18nykt9 xww2gxu" data-visualcompletion="ignore" style="inset: -8px;"></div></div>
+        </div>
+        <div class="w-[30px] h-[30px] hover:bg-gray-200 hover:rounded-full rounded-full flex items-center justify-center">
+          <div aria-label="Options" class="x1i10hfl x1qjc9v5 xjqpnuy xa49m3k xqeqjp1 x2hbi6w x9f619 x1ypdohk xdl72j9 x2lah0s xe8uvvx x2lwn1j xeuugli x16tdsg8 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x1o1ewxj x3x9cwd x1e5q0jg x13rtm0m x1q0g3np x87ps6o x1lku1pv x1a2a7pz xjyslct xjbqb8w x13fuv20 xu3j5b3 x1q0q8m5 x26u7qi x972fbf xcfux6l x1qhh985 xm0m39n x3nfvp2 xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x1n2onr6 x3ajldb x194ut8o x1vzenxt xd7ygy7 xt298gk x1xhcax0 x1s928wv x10pfhc2 x1j6awrg x1v53gu8 x1tfg27r xitxdhh" role="button" tabindex="0"><svg fill="currentColor" viewBox="0 0 20 20" width="1em" height="1em" class="x1lliihq x1k90msu x2h7rmj x1qfuztq xcza8v6 x1qx5ct2 xw4jnvo"><g fill-rule="evenodd" transform="translate(-446 -350)"><path d="M458 360a2 2 0 1 1-4 0 2 2 0 0 1 4 0m6 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0m-12 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0"></path></g></svg><div class="x1ey2m1c xds687c xg01cxk x47corl x10l6tqk x17qophe x13vifvy x1ebt8du x19991ni x1dhq9h x1wpzbip x14yjl9h xudhj91 x18nykt9 xww2gxu" data-visualcompletion="ignore" style="inset: -8px;"></div></div>
+        </div>
+      </div>
+      
+    </div>
+    <div class="hover:cursor hover:bg-gray-200 w-full h-[40px] mt-2 flex items-center hover:rounded-lg hover:cursor-pointer pl-2 ml-6">
+      <div class="flex  items-center space-x-3 ">
+        <div class="w-[25px] h-[25px] bg-white rounded-full flex justify-center items-center">
+          <div class="w-[30px] h-[30px]  rounded-lg flex justify-center items-center hover:bg-gray-200 relative">
+            <div class="w-[10px] h-[10px] bg-green-600 rounded-full absolute top-5 -right-1  text-center border"></div>
+              <img src="./images/jackson.jpeg" alt="" class="rounded-full">
+      </div>
+        </div>
+        <h5 class="text-sm  hidden lg:block">Michael Jackson</h5>
       </div>
     </div>
 
-
+    <div class="hover:cursor hover:bg-gray-200 w-full h-[40px] mt-2 flex items-center hover:rounded-lg hover:cursor-pointer pl-2 ml-6">
+      <div class="flex  items-center space-x-3 ">
+        <div class="w-[25px] h-[25px] bg-white rounded-full flex justify-center items-center">
+          <div class="w-[30px] h-[30px]  rounded-lg flex justify-center items-center hover:bg-gray-200 relative">
+            <div class="w-[10px] h-[10px] bg-green-600 rounded-full absolute top-5 -right-1  text-center border"></div>
+              <img src="./images/activeone.jpg" alt="" class="rounded-full">
+      </div>
+        </div>
+        <h5 class="text-sm  hidden lg:block">Kelvin bawa</h5>
+      </div>
     </div>
-    <div></div>
-    <div></div>
+
+    <div class="hover:cursor hover:bg-gray-200 w-full h-[40px] mt-2 flex items-center hover:rounded-lg hover:cursor-pointer pl-2 ml-6">
+      <div class="flex  items-center space-x-3 ">
+        <div class="w-[25px] h-[25px] bg-white rounded-full flex justify-center items-center">
+          <div class="w-[30px] h-[30px]  rounded-lg flex justify-center items-center hover:bg-gray-200 relative">
+            <div class="w-[10px] h-[10px] bg-green-600 rounded-full absolute top-5 -right-1  text-center border"></div>
+              <img src="./images/activetwo.jpg" alt="" class="rounded-full">
+      </div>
+        </div>
+        <h5 class="text-sm  hidden lg:block">Nwo Nasa</h5>
+      </div>
+    </div>
+    <div class="hover:cursor hover:bg-gray-200 w-full h-[40px] mt-2 flex items-center hover:rounded-lg hover:cursor-pointer pl-2 ml-6">
+      <div class="flex  items-center space-x-3 ">
+        <div class="w-[25px] h-[25px] bg-white rounded-full flex justify-center items-center">
+          <div class="w-[30px] h-[30px]  rounded-lg flex justify-center items-center hover:bg-gray-200 relative">
+            <div class="w-[10px] h-[10px] bg-green-600 rounded-full absolute top-5 -right-1  text-center border"></div>
+              <img src="./images/activethree.jpg" alt="" class="rounded-full">
+      </div>
+        </div>
+        <h5 class="text-sm  hidden lg:block">SOT DEV</h5>
+      </div>
+    </div>
+
+    <div class="hover:cursor hover:bg-gray-200 w-full h-[40px] mt-2 flex items-center hover:rounded-lg hover:cursor-pointer pl-2 ml-6">
+      <div class="flex  items-center space-x-3 ">
+        <div class="w-[25px] h-[25px] bg-white rounded-full flex justify-center items-center">
+          <div class="w-[30px] h-[30px]  rounded-lg flex justify-center items-center hover:bg-gray-200 relative">
+            <div class="w-[10px] h-[10px] bg-green-600 rounded-full absolute top-5 -right-1  text-center border"></div>
+              <img src="./images/activefour.jpg" alt="" class="rounded-full">
+      </div>
+        </div>
+        <h5 class="text-sm  hidden lg:block">Sarah</h5>
+      </div>
+    </div>
+
+    <div class="hover:cursor hover:bg-gray-200 w-full h-[40px] mt-2 flex items-center hover:rounded-lg hover:cursor-pointer pl-2 ml-6">
+      <div class="flex  items-center space-x-3 ">
+        <div class="w-[25px] h-[25px] bg-white rounded-full flex justify-center items-center">
+          <div class="w-[30px] h-[30px]  rounded-lg flex justify-center items-center hover:bg-gray-200 relative">
+            <div class="w-[10px] h-[10px] bg-green-600 rounded-full absolute top-5 -right-1  text-center border"></div>
+              <img src="./images/activefive.jpg" alt="" class="rounded-full">
+      </div>
+        </div>
+        <h5 class="text-sm  hidden lg:block">Charles inojie</h5>
+      </div>
+    </div>
+
+    <div class="hover:cursor hover:bg-gray-200 w-full h-[40px] mt-2 flex items-center hover:rounded-lg hover:cursor-pointer pl-2 ml-6">
+      <div class="flex  items-center space-x-3 ">
+        <div class="w-[25px] h-[25px] bg-white rounded-full flex justify-center items-center">
+          <div class="w-[30px] h-[30px]  rounded-lg flex justify-center items-center hover:bg-gray-200 relative">
+            <div class="w-[10px] h-[10px] bg-green-600 rounded-full absolute top-5 -right-1  text-center border"></div>
+              <img src="./images/activesix.jpg" alt="" class="rounded-full">
+      </div>
+        </div>
+        <h5 class="text-sm  hidden lg:block">Badboy Timz</h5>
+      </div>
+    </div>
+
+    <div class="hover:cursor hover:bg-gray-200 w-full h-[40px] mt-2 flex items-center hover:rounded-lg hover:cursor-pointer pl-2 ml-6">
+      <div class="flex  items-center space-x-3 ">
+        <div class="w-[25px] h-[25px] bg-white rounded-full flex justify-center items-center">
+          <div class="w-[30px] h-[30px]  rounded-lg flex justify-center items-center hover:bg-gray-200 relative">
+            <div class="w-[10px] h-[10px] bg-green-600 rounded-full absolute top-5 -right-1  text-center border"></div>
+              <img src="./images/activeseven.jpeg" alt="" class="rounded-full">
+      </div>
+        </div>
+        <h5 class="text-sm  hidden lg:block">Becky Shawn</h5>
+      </div>
+    </div>
+
+    <div class="hover:cursor hover:bg-gray-200 w-full h-[40px] mt-2 flex items-center hover:rounded-lg hover:cursor-pointer pl-2 ml-6">
+      <div class="flex  items-center space-x-3 ">
+        <div class="w-[25px] h-[25px] bg-white rounded-full flex justify-center items-center">
+          <div class="w-[30px] h-[30px]  rounded-lg flex justify-center items-center hover:bg-gray-200 relative">
+            <div class="w-[10px] h-[10px] bg-green-600 rounded-full absolute top-5 -right-1  text-center border"></div>
+              <img src="./images/activeeight.jpeg" alt="" class="rounded-full">
+      </div>
+        </div>
+        <h5 class="text-sm  hidden lg:block">Jackson</h5>
+      </div>
+    </div>
+
+    <div class="hover:cursor hover:bg-gray-200 w-full h-[40px] mt-2 flex items-center hover:rounded-lg hover:cursor-pointer pl-2 ml-6">
+      <div class="flex  items-center space-x-3 ">
+        <div class="w-[25px] h-[25px] bg-white rounded-full flex justify-center items-center">
+          <div class="w-[30px] h-[30px]  rounded-lg flex justify-center items-center hover:bg-gray-200 relative">
+            <div class="w-[10px] h-[10px] bg-green-600 rounded-full absolute top-5 -right-1  text-center border"></div>
+              <img src="./images/active10.png" alt="" class="rounded-full">
+      </div>
+        </div>
+        <h5 class="text-sm  hidden lg:block">Cecelia</h5>
+      </div>
+    </div>
+
    </div>
    </div>
  </div>
